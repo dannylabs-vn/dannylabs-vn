@@ -13,7 +13,8 @@ I'm currently a student at Le Quy Don High School in Ho Chi Minh City, Vietnam ð
 Email: dannyhong2310@gmail.com
 Discord: danndann_
 -->
-
+---
+<img src="https://raw.githubusercontent.com/dannylabs-vn/dannylabs-vn/main/banner (2).png" alt="Danny Labs Banner" style="width:100%; border-radius:10px;" />
 
 ---
 
