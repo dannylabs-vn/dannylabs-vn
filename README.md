@@ -19,10 +19,10 @@ Discord: danndann_
 
 ### 📌 About Me
 
-- 🎓 Grade 12 student @ **Le Quy Don High School – HCMC**
-- 💻 Self-taught in programming: learning **Python**, **JavaScript**, and web development
-- 🌐 Interested in **AI**, **open-source**, and building practical tools
-- 🔍 Always curious, always learning ( _i think so :))_ )
+- Grade 12 student @ **Le Quy Don High School – HCMC**
+- Self-taught in programming: learning **Python**, **JavaScript**, and web development
+- Interested in **AI**, **open-source**, and building practical tools
+- Always curious, always learning ( _i think so :))_ )
 
 ---
 
