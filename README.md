@@ -1,16 +1,15 @@
-## Hi there 👋
+## welcome to dannylabs 
 
 <!--
-**dannylabs-vn/dannylabs-vn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm currently a student at Le Quy Don High School in Ho Chi Minh City, Vietnam 🇻🇳. I'm just sharing some lame project that i've done by myself =) 
 
-Here are some ideas to get you started:
++ About Me
+- Grade 12 student @ Le Quy Don High School
+- Self-taught in programming: currently learning Python, JavaScript, and building small projects
+- Interested in web development, AI, and open-source projects
+- Always curious, always learning ( i think so :)) ) 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
++ Connect with me via : 
+Email: dannyhong2310@gmail.com
+Discord: danndann_
 -->
