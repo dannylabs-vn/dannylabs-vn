@@ -46,8 +46,6 @@ Discord: danndann_
 ---
 
 ### GitHub Stats
-
-![Danny's GitHub Stats](https://github-readme-stats.vercel.app/api?username=dannylabs-vn&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dannylabs-vn&layout=compact&theme=radical)
 
 ---
