@@ -9,7 +9,7 @@
 <br>
 
 Building software at the intersection of engineering,<br>
-artificial intelligence, and thoughtful design.
+artificial intelligence, and making life easier =).
 
 ---
 
