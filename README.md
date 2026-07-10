@@ -4,7 +4,7 @@
 
 # Hong Dao Kiet
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=4000&pause=2000&color=8B949E&center=true&vCenter=true&width=500&lines=Software+Engineer+%C2%B7+AI+Researcher+%C2%B7+Builder" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=4000&pause=2000&color=8B949E&center=true&vCenter=true&width=500&lines=Software+Engineer+%C2%B7+SWE+%40+UTS+30%27" alt="Typing SVG" />
 
 <br>
 
