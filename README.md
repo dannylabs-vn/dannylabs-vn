@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&customColorList=1,FF2A2A,FF8C00,FFD700&height=250&section=header&text=HELLO,%20I'M%20DANNY&fontSize=70&fontColor=ffffff&animation=twinkling&desc=FRONTEND%20ENGINEER%20//%20AI%20RESEARCHER&descAlignY=75&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&customColorList=1,FF2A2A,FF8C00,FFD700&height=250&section=header&text=HELLO%2C%20I%27M%20DANNY&fontSize=70&fontColor=ffffff&animation=twinkling&desc=FRONTEND%20ENGINEER%20%2F%2F%20AI%20RESEARCHER&descAlignY=75&descAlign=50" />
 </div>
 
 <div align="center">
@@ -39,7 +39,7 @@
 <br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=FF2A2A&height=60&text=✦%20TECH%20ARSENAL%20✦&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=FF2A2A&height=60&text=%E2%9C%A6%20TECH%20ARSENAL%20%E2%9C%A6&fontSize=30&fontColor=ffffff" />
 </div>
 
 <br>
@@ -68,7 +68,7 @@
 <br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=FF8C00&height=60&text=✦%20ACTIVE%20MISSIONS%20✦&fontSize=30&fontColor=000000" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=FF8C00&height=60&text=%E2%9C%A6%20ACTIVE%20MISSIONS%20%E2%9C%A6&fontSize=30&fontColor=000000" />
 </div>
 
 <br>
@@ -99,7 +99,7 @@
 <br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=FFD700&height=60&text=✦%20SYSTEM%20LOGS%20✦&fontSize=30&fontColor=000000" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=FFD700&height=60&text=%E2%9C%A6%20SYSTEM%20LOGS%20%E2%9C%A6&fontSize=30&fontColor=000000" />
 </div>
 
 <br>
@@ -117,7 +117,7 @@
 <br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=FF2A2A&height=60&text=✦%20TERMINAL%20ACCESS%20✦&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=FF2A2A&height=60&text=%E2%9C%A6%20TERMINAL%20ACCESS%20%E2%9C%A6&fontSize=30&fontColor=ffffff" />
 </div>
 
 <br>
