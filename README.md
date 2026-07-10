@@ -207,7 +207,40 @@ IoT-based electrical safety monitoring.
 <br>
 
 <div align="center">
-  <img src="./assets/spotify_playlist.svg" alt="Minimal Spotify playlist" width="700" />
+
+<table>
+  <tr>
+    <th align="left"></th>
+    <th align="left">Song</th>
+    <th align="left">Artist</th>
+  </tr>
+  <tr>
+    <td><img src="https://i.scdn.co/image/ab67616d0000485125d712758cb097f61a2d8c25" width="36" /></td>
+    <td><b>Từ Đầu</b></td>
+    <td>Chillies</td>
+  </tr>
+  <tr>
+    <td><img src="https://i.scdn.co/image/ab67616d000048514d08fc99eff4ed52dfce91fa" width="36" /></td>
+    <td><b>The Winner Takes It All</b></td>
+    <td>ABBA</td>
+  </tr>
+  <tr>
+    <td><img src="https://i.scdn.co/image/ab67616d00004851db75ed1a585f10a10ccbdc73" width="36" /></td>
+    <td><b>Tập Đi</b></td>
+    <td>Truant Fu</td>
+  </tr>
+  <tr>
+    <td><img src="https://i.scdn.co/image/ab67616d0000485174c732f8aa0e0ccbb3d17d96" width="36" /></td>
+    <td><b>Promise</b></td>
+    <td>Laufey</td>
+  </tr>
+  <tr>
+    <td><img src="https://i.scdn.co/image/ab67616d0000485130503dbc30e621c96913379b" width="36" /></td>
+    <td><b>Hey Jude</b></td>
+    <td>The Beatles</td>
+  </tr>
+</table>
+
 </div>
 
 <br>
