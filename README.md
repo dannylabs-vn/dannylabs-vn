@@ -11,12 +11,6 @@
 Building software at the intersection of engineering,<br>
 artificial intelligence, and thoughtful design.
 
-<br>
-
-`🇻🇳 Vietnam` · `📧 dannyhong2310@gmail.com` · `⚡ Open to collaborate`
-
-<br>
-
 ---
 
 </div>
@@ -31,12 +25,12 @@ artificial intelligence, and thoughtful design.
 const danny = {
     name: "Hong Dao Kiet",
     role: "Software Engineer & AI Researcher",
-    education: "High School Student",
-    president: "Science & Technology Club",
+    education: "SWE @ University of Technology Sydney 30'",
+    president: "Science & Technology Club Le Quy Don High School",
     founder: "EcoAI Youth Innovators",
     interests: ["Artificial Intelligence", "Computer Vision", "IoT", "Full Stack"],
     currentlyLearning: ["Next.js", "Advanced System Design", "ML Research"],
-    currentlyBuilding: "PeerNoted, CapCuu, ViTeM",
+    currentlyBuilding: "PeerNoted, CapCuu, ViTeM, SmartBites"
     philosophy: "First solve the problem. Then write the code."
 };
 ```
