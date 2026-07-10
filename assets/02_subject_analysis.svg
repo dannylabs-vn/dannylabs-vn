@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      @keyframes pulse { 0%, 100% { opacity: 0.8; } 50% { opacity: 0.4; } }
+      @keyframes drawLine { 0% { stroke-dasharray: 0 2000; } 100% { stroke-dasharray: 2000 0; } }
+      @keyframes fillBar { 0% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
+      
+      .bg { fill: #050505; }
+      .text-main { font-family: 'Share Tech Mono', monospace; fill: #00E5FF; }
+      .text-label { font-family: 'Share Tech Mono', monospace; fill: #666; font-size: 12px; }
+      .text-value { font-family: 'Share Tech Mono', monospace; fill: #fff; font-size: 14px; }
+      .text-title { font-family: 'Share Tech Mono', monospace; fill: #00E5FF; font-size: 24px; font-weight: bold; letter-spacing: 2px; }
+      .glow { filter: drop-shadow(0 0 5px rgba(0, 229, 255, 0.5)); }
+      .glow-red { filter: drop-shadow(0 0 5px rgba(255, 42, 42, 0.5)); }
+      .bar-bg { fill: #111; }
+      .bar-fill { fill: #00E5FF; transform-origin: left; animation: fillBar 2s ease-out forwards; }
+      .bar-fill-red { fill: #FF2A2A; transform-origin: left; animation: fillBar 2s ease-out forwards; }
+      .line { stroke: #00E5FF; stroke-width: 1; opacity: 0.3; }
+      .box { fill: none; stroke: #00E5FF; stroke-width: 1; opacity: 0.5; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="600" />
+  
+  <path class="box glow" d="M 40 40 L 200 40 L 220 20 L 760 20 L 760 580 L 40 580 Z" stroke-dasharray="2000" style="animation: drawLine 2s forwards;" />
+  <path class="box" d="M 50 50 L 190 50 L 210 30 L 750 30 L 750 570 L 50 570 Z" />
+
+  <g transform="translate(110, 180)">
+    <circle cx="0" cy="0" r="50" class="box" />
+    <circle cx="0" cy="0" r="40" class="box" stroke-dasharray="4 4" style="animation: pulse 2s infinite;" />
+    <path d="M -60 0 L -40 0 M 60 0 L 40 0 M 0 -60 L 0 -40 M 0 60 L 0 40" stroke="#00E5FF" stroke-width="2" />
+    <text x="0" y="80" class="text-label" text-anchor="middle">VISUAL DATA UNAVAILABLE</text>
+  </g>
+
+  <g transform="translate(220, 80)">
+    <text class="text-title glow">SUBJECT DOSSIER</text>
+    <line x1="0" y1="10" x2="500" y2="10" class="line" />
+    
+    <text y="40" class="text-label">NAME</text>
+    <text x="120" y="40" class="text-value">Hong Dao Kiet</text>
+    
+    <text y="70" class="text-label">ALIAS</text>
+    <text x="120" y="70" class="text-value glow">Danny</text>
+
+    <text y="100" class="text-label">SPECIES</text>
+    <text x="120" y="100" class="text-value">Human (Assumed)</text>
+    
+    <text y="130" class="text-label">LOCATION</text>
+    <text x="120" y="130" class="text-value">Vietnam [14.0583° N, 108.2772° E]</text>
+    
+    <text y="160" class="text-label">CURRENT ROLE</text>
+    <text x="120" y="160" class="text-value">High School Student</text>
+    
+    <text y="190" class="text-label">AFFILIATIONS</text>
+    <text x="120" y="190" class="text-value">- President, Science &amp; Technology Club</text>
+    <text x="120" y="210" class="text-value">- Founder, EcoAI Youth Innovators</text>
+    
+    <text y="240" class="text-label">OBJECTIVE</text>
+    <text x="120" y="240" class="text-value glow" style="fill: #00FF66;">Become a world-class AI Engineer and Researcher</text>
+  </g>
+
+  <g transform="translate(220, 380)">
+    <text class="text-main" style="font-size: 16px;">BIOMETRIC &amp; COGNITIVE ANALYSIS</text>
+    <line x1="0" y1="10" x2="500" y2="10" class="line" />
+    
+    <g transform="translate(0, 40)">
+      <text class="text-label" y="-5">Curiosity Index</text>
+      <rect class="bar-bg" x="180" y="-12" width="280" height="8" rx="4"/>
+      <rect class="bar-fill glow" x="180" y="-12" width="265" height="8" rx="4" style="animation-delay: 0.5s;"/>
+      <text class="text-main" x="470" y="-3">95%</text>
+    </g>
+    
+    <g transform="translate(0, 70)">
+      <text class="text-label" y="-5">Learning Speed</text>
+      <rect class="bar-bg" x="180" y="-12" width="280" height="8" rx="4"/>
+      <rect class="bar-fill glow" x="180" y="-12" width="270" height="8" rx="4" style="animation-delay: 0.7s;"/>
+      <text class="text-main" x="470" y="-3">97%</text>
+    </g>
+
+    <g transform="translate(0, 100)">
+      <text class="text-label" y="-5">Coffee Dependency</text>
+      <rect class="bar-bg" x="180" y="-12" width="280" height="8" rx="4"/>
+      <rect class="bar-fill-red glow-red" x="180" y="-12" width="230" height="8" rx="4" style="animation-delay: 0.9s;"/>
+      <text class="text-alert" style="fill: #FF2A2A;" x="470" y="-3">83%</text>
+    </g>
+    
+    <g transform="translate(0, 130)">
+      <text class="text-label" y="-5">Risk of building AI tonight</text>
+      <rect class="bar-bg" x="180" y="-12" width="280" height="8" rx="4"/>
+      <rect class="bar-fill-red glow-red" x="180" y="-12" width="278" height="8" rx="4" style="animation-delay: 1.1s;"/>
+      <text class="text-alert" style="fill: #FF2A2A;" x="470" y="-3">99%</text>
+    </g>
+  </g>
+  
+  <rect x="740" y="30" width="10" height="20" class="bar-fill" />
+  <rect x="740" y="60" width="10" height="10" class="bar-fill" style="animation-delay: 2s;" />
+</svg>

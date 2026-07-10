@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      @keyframes ekg { 0% { stroke-dashoffset: 1000; } 100% { stroke-dashoffset: 0; } }
+      @keyframes ekgPulse { 0% { opacity: 0; } 5% { opacity: 1; } 95% { opacity: 1; } 100% { opacity: 0; } }
+      @keyframes barFill { 0% { height: 0; y: 100; } 100% { height: var(--h); y: calc(100 - var(--h)); } }
+      
+      .bg { fill: #050505; }
+      .text-title { font-family: 'Share Tech Mono', monospace; fill: #00E5FF; font-size: 24px; font-weight: bold; }
+      .text-label { font-family: 'Share Tech Mono', monospace; fill: #888; font-size: 12px; }
+      .text-value { font-family: 'Share Tech Mono', monospace; fill: #fff; font-size: 20px; font-weight: bold; }
+      
+      .panel { fill: none; stroke: #111; stroke-width: 2; }
+      .ekg-line { fill: none; stroke: #00FF66; stroke-width: 2; stroke-dasharray: 1000; animation: ekg 3s linear infinite, ekgPulse 3s linear infinite; filter: drop-shadow(0 0 5px #00FF66); }
+      .bar { fill: #00E5FF; opacity: 0.8; filter: drop-shadow(0 0 5px #00E5FF); }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="600" />
+  
+  <text x="50" y="50" class="text-title" style="filter: drop-shadow(0 0 5px #00E5FF);">[ LIVE BIOLOGICAL OBSERVATION ]</text>
+
+  <g transform="translate(50, 80)">
+    <rect width="700" height="150" class="panel" />
+    <text x="10" y="20" class="text-label">NEURAL ACTIVITY (COMMITS)</text>
+    <text x="10" y="45" class="text-value" style="fill: #00FF66;">STABLE</text>
+    <path d="M 0 100 L 100 100 L 120 70 L 140 130 L 160 50 L 180 150 L 200 80 L 220 100 L 350 100 L 370 70 L 390 130 L 410 50 L 430 150 L 450 80 L 470 100 L 700 100" class="ekg-line" />
+    <pattern id="ekgGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#111" stroke-width="0.5" />
+    </pattern>
+    <rect width="700" height="150" fill="url(#ekgGrid)" style="pointer-events:none; mix-blend-mode: screen;" />
+  </g>
+
+  <g transform="translate(50, 250)">
+    <g transform="translate(0, 0)">
+      <rect width="220" height="80" class="panel" />
+      <text x="10" y="25" class="text-label">LEARNING CURVE</text>
+      <text x="10" y="60" class="text-value" style="fill: #00E5FF;">EXPONENTIAL</text>
+    </g>
+    <g transform="translate(240, 0)">
+      <rect width="220" height="80" class="panel" />
+      <text x="10" y="25" class="text-label">KNOWLEDGE EXPANSION</text>
+      <text x="10" y="60" class="text-value" style="fill: #00E5FF;">+342%</text>
+    </g>
+    <g transform="translate(480, 0)">
+      <rect width="220" height="80" class="panel" />
+      <text x="10" y="25" class="text-label">REPOSITORY DENSITY</text>
+      <text x="10" y="60" class="text-value" style="fill: #00E5FF;">HIGH</text>
+    </g>
+
+    <g transform="translate(0, 100)">
+      <rect width="220" height="80" class="panel" />
+      <text x="10" y="25" class="text-label">IDEA GENERATION</text>
+      <text x="10" y="60" class="text-value" style="fill: #00E5FF;">8.4 / DAY</text>
+    </g>
+    <g transform="translate(240, 100)">
+      <rect width="220" height="80" class="panel" />
+      <text x="10" y="25" class="text-label">MODEL ACCURACY</text>
+      <text x="10" y="60" class="text-value" style="fill: #00FF66;">OPTIMIZING...</text>
+    </g>
+    <g transform="translate(480, 100)">
+      <rect width="220" height="80" class="panel" />
+      <text x="10" y="25" class="text-label">FAILURE RECOVERY</text>
+      <text x="10" y="60" class="text-value" style="fill: #FF2A2A;">INSTANT</text>
+    </g>
+  </g>
+
+  <g transform="translate(50, 450)">
+    <rect width="460" height="120" class="panel" />
+    <text x="10" y="20" class="text-label">RESEARCH VELOCITY</text>
+    <g transform="translate(10, 20)">
+      <rect x="0" width="30" class="bar" style="--h: 40; animation: barFill 1s ease-out forwards;" />
+      <rect x="40" width="30" class="bar" style="--h: 55; animation: barFill 1.2s ease-out forwards;" />
+      <rect x="80" width="30" class="bar" style="--h: 30; animation: barFill 1.4s ease-out forwards;" />
+      <rect x="120" width="30" class="bar" style="--h: 70; animation: barFill 1.6s ease-out forwards;" />
+      <rect x="160" width="30" class="bar" style="--h: 90; animation: barFill 1.8s ease-out forwards;" />
+      <rect x="200" width="30" class="bar" style="--h: 85; animation: barFill 2s ease-out forwards;" />
+      <rect x="240" width="30" class="bar" style="--h: 95; animation: barFill 2.2s ease-out forwards;" />
+    </g>
+  </g>
+
+  <g transform="translate(530, 450)">
+    <rect width="220" height="120" class="panel" />
+    <text x="10" y="20" class="text-label">PROTOTYPE COUNT</text>
+    <text x="110" y="80" class="text-value" text-anchor="middle" style="font-size: 48px; filter: drop-shadow(0 0 10px #00E5FF);">42</text>
+  </g>
+</svg>
