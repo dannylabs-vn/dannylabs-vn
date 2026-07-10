@@ -1,9 +1,19 @@
+const escapeXml = (value = '') =>
+  value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+
+const truncate = (value = '', max = 42) =>
+  value.length > max ? `${value.slice(0, max - 1)}…` : value;
+
 export default async function handler(req, res) {
   const { SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REFRESH_TOKEN } = process.env;
 
   const basic = Buffer.from(`${SPOTIFY_CLIENT_ID}:${SPOTIFY_CLIENT_SECRET}`).toString('base64');
-  
-  // 1. Get Access Token
+
   const tokenResponse = await fetch('https://accounts.spotify.com/api/token', {
     method: 'POST',
     headers: {
@@ -16,60 +26,61 @@ export default async function handler(req, res) {
     }),
   });
 
-  const { access_token } = await tokenResponse.json();
+  const tokenData = await tokenResponse.json();
 
-  // 2. Get Now Playing
-  const nowPlayingResponse = await fetch('https://api.spotify.com/v1/me/player/currently-playing', {
+  if (!tokenResponse.ok || !tokenData.access_token) {
+    res.setHeader('Content-Type', 'image/svg+xml');
+    return res.status(200).send(`
+      <svg width="520" height="120" xmlns="http://www.w3.org/2000/svg">
+        <rect width="520" height="120" fill="#0d1117" rx="12"/>
+        <text x="260" y="60" fill="#f85149" font-family="Inter, Arial" font-size="15" text-anchor="middle">Spotify token error</text>
+      </svg>
+    `);
+  }
+
+  const recentResponse = await fetch('https://api.spotify.com/v1/me/player/recently-played?limit=6', {
     headers: {
-      Authorization: `Bearer ${access_token}`,
+      Authorization: `Bearer ${tokenData.access_token}`,
     },
   });
 
-  if (nowPlayingResponse.status === 204 || nowPlayingResponse.status > 400) {
+  if (!recentResponse.ok) {
     res.setHeader('Content-Type', 'image/svg+xml');
     return res.status(200).send(`
-      <svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
-        <rect width="400" height="100" fill="#181818" rx="10"/>
-        <text x="200" y="55" fill="#b3b3b3" font-family="Arial" font-size="16" text-anchor="middle">Not currently playing</text>
+      <svg width="520" height="120" xmlns="http://www.w3.org/2000/svg">
+        <rect width="520" height="120" fill="#0d1117" rx="12"/>
+        <text x="260" y="60" fill="#8b949e" font-family="Inter, Arial" font-size="15" text-anchor="middle">No Spotify history yet</text>
       </svg>
     `);
   }
 
-  const song = await nowPlayingResponse.json();
-  const isPlaying = song.is_playing;
-  
-  if (!isPlaying) {
-    res.setHeader('Content-Type', 'image/svg+xml');
-    return res.status(200).send(`
-      <svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
-        <rect width="400" height="100" fill="#181818" rx="10"/>
-        <text x="200" y="55" fill="#b3b3b3" font-family="Arial" font-size="16" text-anchor="middle">Not currently playing</text>
-      </svg>
-    `);
-  }
+  const recentData = await recentResponse.json();
+  const tracks = (recentData.items || []).slice(0, 6);
 
-  const title = song.item.name;
-  const artist = song.item.artists.map((_artist) => _artist.name).join(', ');
-  
-  // To avoid CORS issues with SVG images, we fetch the image and convert to base64
-  const albumImageUrl = song.item.album.images[0].url;
-  const imageResponse = await fetch(albumImageUrl);
-  const arrayBuffer = await imageResponse.arrayBuffer();
-  const base64Image = Buffer.from(arrayBuffer).toString('base64');
-  const imageMimeType = imageResponse.headers.get('content-type') || 'image/jpeg';
-  const dataUri = `data:${imageMimeType};base64,${base64Image}`;
+  const rows = tracks
+    .map(({ track }, index) => {
+      const y = 64 + index * 26;
+      const title = escapeXml(truncate(track?.name || 'Unknown song', 34));
+      const artist = escapeXml(truncate((track?.artists || []).map((artist) => artist.name).join(', ') || 'Unknown artist', 28));
 
-  res.setHeader('Cache-Control', 'public, s-maxage=30, stale-while-revalidate=15');
+      return `
+        <text x="28" y="${y}" fill="#8b949e" font-family="Inter, Arial" font-size="13">${index + 1}.</text>
+        <text x="55" y="${y}" fill="#f0f6fc" font-family="Inter, Arial" font-size="14" font-weight="600">${title}</text>
+        <text x="310" y="${y}" fill="#8b949e" font-family="Inter, Arial" font-size="13">${artist}</text>
+      `;
+    })
+    .join('');
+
+  res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate=30');
   res.setHeader('Content-Type', 'image/svg+xml');
-  
-  const svg = `
-  <svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
-    <rect width="400" height="120" fill="#181818" rx="10"/>
-    <image href="${dataUri}" x="20" y="20" height="80" width="80"/>
-    <text x="120" y="45" fill="white" font-family="Arial" font-size="18" font-weight="bold">${title}</text>
-    <text x="120" y="70" fill="#b3b3b3" font-family="Arial" font-size="14">${artist}</text>
-    <text x="120" y="95" fill="#1db954" font-family="Arial" font-size="13">▶ Now Playing on Spotify</text>
-  </svg>
-  `;
-  return res.status(200).send(svg);
+
+  return res.status(200).send(`
+    <svg width="520" height="230" viewBox="0 0 520 230" xmlns="http://www.w3.org/2000/svg">
+      <rect width="520" height="230" fill="#0d1117" rx="16"/>
+      <rect x="1" y="1" width="518" height="228" fill="none" stroke="#30363d" rx="16"/>
+      <text x="28" y="35" fill="#1db954" font-family="Inter, Arial" font-size="15" font-weight="700">♪ Spotify Playlist</text>
+      <text x="28" y="53" fill="#8b949e" font-family="Inter, Arial" font-size="12">Recently played tracks</text>
+      ${rows || `<text x="260" y="125" fill="#8b949e" font-family="Inter, Arial" font-size="15" text-anchor="middle">No songs found</text>`}
+    </svg>
+  `);
 }

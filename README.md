@@ -37,15 +37,6 @@ const danny = {
 
 <br>
 
-<div align="center">
-  <a href="#">
-    <!-- Nhớ sửa lại tên miền dannylabs-vn.vercel.app thành đúng đường link Vercel của bạn nếu nó khác nhé -->
-    <img src="https://dannylabs-vn.vercel.app/api/now-playing" alt="Spotify Now Playing" width="400" />
-  </a>
-</div>
-
-<br>
-
 ---
 
 <br>
@@ -90,6 +81,22 @@ const danny = {
 <img src="https://img.shields.io/badge/Vercel-0D1117?style=flat-square&logo=vercel&logoColor=C9D1D9" />
 <img src="https://img.shields.io/badge/VS_Code-0D1117?style=flat-square&logo=visualstudiocode&logoColor=C9D1D9" />
 
+</div>
+
+<br>
+
+---
+
+<br>
+
+<h3 align="center"><code>~/now play</code></h3>
+
+<br>
+
+<div align="center">
+  <a href="#">
+    <img src="https://dannylabs-vn.vercel.app/api/now-playing" alt="Spotify Playlist" width="520" />
+  </a>
 </div>
 
 <br>
