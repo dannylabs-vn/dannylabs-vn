@@ -30,8 +30,8 @@ const danny = {
     founder: "EcoAI Youth Innovators",
     interests: ["Artificial Intelligence", "Computer Vision", "IoT", "Full Stack"],
     currentlyLearning: ["Next.js", "Advanced System Design", "ML Research"],
-    currentlyBuilding: "PeerNoted, CapCuu, ViTeM, SmartBites"
-    philosophy: "First solve the problem. Then write the code."
+    currentlyBuilding: "PeerNoted, CapCuu, ViTeM, SmartBites",
+    philosophy: "The many challenges in life appear only because the universe knows we have the strength to conquer them."
 };
 ```
 
@@ -253,8 +253,6 @@ $ status
 *Designed with simplicity. Built with curiosity.*
 
 <br>
-
-
 
 <br><br>
 
