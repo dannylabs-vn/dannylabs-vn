@@ -1,130 +1,268 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=250&section=header&text=HONG%20DAO%20KIET&fontSize=60&fontColor=FF8C00&animation=twinkling&desc=SOFTWARE%20ENGINEER%20%7C%20AI%20INNOVATOR&descAlignY=75&descAlign=50&stroke=161B22" />
+
+<br>
+
+# Hong Dao Kiet
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=4000&pause=2000&color=8B949E&center=true&vCenter=true&width=500&lines=Software+Engineer+%C2%B7+AI+Researcher+%C2%B7+Builder" alt="Typing SVG" />
+
+<br>
+
+Building software at the intersection of engineering,<br>
+artificial intelligence, and thoughtful design.
+
+<br>
+
+`🇻🇳 Vietnam` · `📧 dannyhong2310@gmail.com` · `⚡ Open to collaborate`
+
+<br>
+
+---
+
 </div>
 
+<br>
+
+<h3 align="center"><code>~/about</code></h3>
+
+<br>
+
+```js
+const danny = {
+    name: "Hong Dao Kiet",
+    role: "Software Engineer & AI Researcher",
+    education: "High School Student",
+    president: "Science & Technology Club",
+    founder: "EcoAI Youth Innovators",
+    interests: ["Artificial Intelligence", "Computer Vision", "IoT", "Full Stack"],
+    currentlyLearning: ["Next.js", "Advanced System Design", "ML Research"],
+    currentlyBuilding: "PeerNoted, CapCuu, ViTeM",
+    philosophy: "First solve the problem. Then write the code."
+};
+```
+
+<br>
+
+---
+
+<br>
+
+<h3 align="center"><code>~/stack</code></h3>
+
+<br>
+
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F7B500&center=true&vCenter=true&width=500&lines=Building+high-performance+systems;Architecting+scalable+backends;Crafting+premium+user+interfaces;Innovating+at+the+edge+of+AI;Turning+caffeine+into+code" alt="Typing SVG" />
+
+**Languages**
+
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/HTML-0D1117?style=flat-square&logo=html5&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css3&logoColor=C9D1D9" />
+
+<br>
+
+**Frontend**
+
+<img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-0D1117?style=flat-square&logo=tailwindcss&logoColor=C9D1D9" />
+
+<br>
+
+**Backend & AI**
+
+<img src="https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/Express-0D1117?style=flat-square&logo=express&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/MongoDB-0D1117?style=flat-square&logo=mongodb&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/TensorFlow-0D1117?style=flat-square&logo=tensorflow&logoColor=C9D1D9" />
+
+<br>
+
+**Tools**
+
+<img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/Figma-0D1117?style=flat-square&logo=figma&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/Vercel-0D1117?style=flat-square&logo=vercel&logoColor=C9D1D9" />
+<img src="https://img.shields.io/badge/VS_Code-0D1117?style=flat-square&logo=visualstudiocode&logoColor=C9D1D9" />
+
+</div>
+
+<br>
+
+---
+
+<br>
+
+<h3 align="center"><code>~/projects</code></h3>
+
+<br>
+
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**PeerNoted**
+
+Peer-to-peer study notes platform.
+
+`TypeScript` · Active
+
+[→ Repository](https://github.com/dannylabs-vn/peernoted)
+
+</td>
+<td width="50%" valign="top">
+
+**CapCuu**
+
+Emergency response coordination system.
+
+`HTML` `TypeScript` · Active
+
+[→ Repository](https://github.com/dannylabs-vn/capcuu_new)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**ViTeM**
+
+Vietnamese teaching management platform.
+
+`JavaScript` · Active
+
+[→ Repository](https://github.com/dannylabs-vn/ViTeM)
+
+</td>
+<td width="50%" valign="top">
+
+**Emotions Detection**
+
+Real-time emotion recognition with computer vision.
+
+`Python` · Research
+
+[→ Repository](https://github.com/dannylabs-vn/emotions_detec)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Weather Prediction**
+
+ML-powered weather forecasting system.
+
+`Python` · Research
+
+[→ Repository](https://github.com/dannylabs-vn/weather_prediction)
+
+</td>
+<td width="50%" valign="top">
+
+**Electric Warning Device**
+
+IoT-based electrical safety monitoring.
+
+`IoT` `Hardware` · Completed
+
+[→ Repository](https://github.com/dannylabs-vn/electricwarningdevice)
+
+</td>
+</tr>
+</table>
+</div>
+
+<br>
+
+---
+
+<br>
+
+<h3 align="center"><code>~/metrics</code></h3>
+
+<br>
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=dannylabs-vn&show_icons=true&hide_border=true&bg_color=00000000&title_color=C9D1D9&icon_color=F59E0B&text_color=8B949E&ring_color=F59E0B" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dannylabs-vn&layout=compact&hide_border=true&bg_color=00000000&title_color=C9D1D9&text_color=8B949E" width="49%" />
 </div>
 
 <br>
 
 <div align="center">
-  <p><b>Current Focus:</b> Full Stack Development & AI Integration ⚡ <b>Location:</b> Vietnam 🇻🇳</p>
-  <p><b>Status:</b> Available for collaboration 🚀 <b>Contact:</b> <a href="mailto:dannyhong2310@gmail.com">dannyhong2310@gmail.com</a></p>
-</div>
-
-<br>
-
-<h3 align="center"><code>const developer = {</code></h3>
-<div align="center">
-<pre align="left" style="width: max-content; margin: 0 auto; background: #0D1117; color: #F7B500; padding: 15px; border-radius: 8px; border: 1px solid #161B22;">
-  role: "Software Engineer",
-  alias: "Danny",
-  education: "High School Student",
-  interests: ["UI/UX Design", "AI/ML", "IoT", "Open Source"],
-  currentlyLearning: ["Next.js", "Advanced System Design"],
-  currentlyBuilding: "SmartBites & VSignChat",
-  funFact: "I debug faster after midnight."
-</pre>
-</div>
-<h3 align="center"><code>}</code></h3>
-
-<br>
-
-<h2 align="center">⚡ TECH STACK</h2>
-
-<div align="center">
-  <p><b>FRONTEND</b></p>
-  <img src="https://img.shields.io/badge/React-161B22?style=for-the-badge&logo=react&logoColor=FF8C00" />
-  <img src="https://img.shields.io/badge/Next.js-161B22?style=for-the-badge&logo=nextdotjs&logoColor=F7B500" />
-  <img src="https://img.shields.io/badge/Tailwind-161B22?style=for-the-badge&logo=tailwindcss&logoColor=FF4D4D" />
-  <img src="https://img.shields.io/badge/TypeScript-161B22?style=for-the-badge&logo=typescript&logoColor=FF8C00" />
-  
-  <p><b>BACKEND & AI</b></p>
-  <img src="https://img.shields.io/badge/Node.js-161B22?style=for-the-badge&logo=nodedotjs&logoColor=F7B500" />
-  <img src="https://img.shields.io/badge/Express-161B22?style=for-the-badge&logo=express&logoColor=FF4D4D" />
-  <img src="https://img.shields.io/badge/Python-161B22?style=for-the-badge&logo=python&logoColor=FF8C00" />
-  <img src="https://img.shields.io/badge/MongoDB-161B22?style=for-the-badge&logo=mongodb&logoColor=F7B500" />
-
-  <p><b>TOOLS</b></p>
-  <img src="https://img.shields.io/badge/Git-161B22?style=for-the-badge&logo=git&logoColor=FF4D4D" />
-  <img src="https://img.shields.io/badge/Figma-161B22?style=for-the-badge&logo=figma&logoColor=FF8C00" />
-  <img src="https://img.shields.io/badge/Vercel-161B22?style=for-the-badge&logo=vercel&logoColor=F7B500" />
-</div>
-
-<br>
-
-<h2 align="center">📊 GITHUB DASHBOARD</h2>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dannylabs-vn&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FF8C00&icon_color=F7B500&text_color=A0A0A0" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dannylabs-vn&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=A0A0A0" width="48%" />
-</div>
-<br>
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dannylabs-vn&theme=dark&hide_border=true&background=0D1117&ring=FF8C00&fire=F7B500&currStreakNum=ffffff&currStreakLabel=FF8C00&sideNums=ffffff&sideLabels=A0A0A0&dates=A0A0A0" />
-</div>
-
-<br>
-
-<h2 align="center">📂 FEATURED PROJECTS</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        <h3>🚀 SmartBites</h3>
-        <p>AI-powered nutrition and food tracking platform.</p>
-        <p><b>Stack:</b> React, AI, IoT, Node.js</p>
-        <p><b>Status:</b> Active Development</p>
-      </td>
-      <td width="50%" valign="top">
-        <h3>👁️ VSignChat</h3>
-        <p>Real-time sign language translation using computer vision.</p>
-        <p><b>Stack:</b> Python, TypeScript, CV</p>
-        <p><b>Status:</b> Beta</p>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br>
-
-<h2 align="center">🎧 NOW PLAYING</h2>
-
-<div align="center">
-  <i>"Code better with good music."</i><br><br>
-  <a href="https://spotify.com"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=spotify&cover_image=true&theme=novathem&bar_color=FF8C00&bar_color_cover=false" /></a>
-</div>
-
-<br>
-
-<h2 align="center">💻 TERMINAL</h2>
-
-<div align="center">
-<pre align="left" style="width: max-content; margin: 0 auto; background: #0D1117; color: #F7B500; padding: 15px; border-radius: 8px; border: 1px solid #161B22;">
-visitor@danny-sys:~$ whoami
-> Full Stack Developer & Innovator
-
-visitor@danny-sys:~$ stack
-> React | Node.js | Next.js | Python
-
-visitor@danny-sys:~$ currently
-> Building useful things.
-
-visitor@danny-sys:~$ coffee
-> ☕ Loaded.
-</pre>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dannylabs-vn&hide_border=true&background=00000000&ring=F59E0B&fire=EA580C&currStreakNum=C9D1D9&currStreakLabel=F59E0B&sideNums=C9D1D9&sideLabels=8B949E&dates=8B949E&stroke=00000000" />
 </div>
 
 <br>
 
 <div align="center">
-  <i>"First solve the problem. Then write the code."</i>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dannylabs-vn&bg_color=00000000&color=8B949E&line=F59E0B&point=C9D1D9&area=true&area_color=F59E0B&hide_border=true" width="95%" />
 </div>
+
+<br>
+
+---
+
+<br>
+
+<h3 align="center"><code>~/now-playing</code></h3>
+
+<br>
+
+<div align="center">
+
+*Good software deserves good music.*
+
+<br>
+
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31povlpmq6gkfcm2hrni2ht2atyq&cover_image=true&theme=natemoo-re&show_offline=true&bar_color=F59E0B&bar_color_cover=false)](https://github.com/kittinanx/spotify-github-profile)
+
+</div>
+
+<br>
+
+---
+
+<br>
+
+<h3 align="center"><code>~/terminal</code></h3>
+
+<br>
+
+```
+$ whoami
+→ Software Engineer & AI Researcher
+
+$ focus
+→ Building meaningful software.
+
+$ currently
+→ PeerNoted · CapCuu · AI Research
+
+$ status
+→ Always learning. Always building.
+```
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+<br>
+
+*Designed with simplicity. Built with curiosity.*
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=dannylabs-vn&style=flat-square&color=8B949E&label=Profile+Views" />
 
 <br><br>
 
-<div align="center">
-  <p>See you in the next commit.</p>
 </div>
