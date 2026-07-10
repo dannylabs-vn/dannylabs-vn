@@ -221,17 +221,17 @@ IoT-based electrical safety monitoring.
 <br>
 
 ```
-$ whoami
-→ Software Engineer & AI Researcher
+$ myhobbies
+→ football, playing guitar, programming & games:)
 
 $ focus
 → Building meaningful software.
 
-$ currently
-→ PeerNoted · CapCuu · AI Research
-
 $ status
 → Always learning. Always building.
+
+$ favfood
+→ bun bo Hue is the best.
 ```
 
 <br>
