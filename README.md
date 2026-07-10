@@ -89,22 +89,6 @@ const danny = {
 
 <br>
 
-<h3 align="center"><code>~/now play</code></h3>
-
-<br>
-
-<div align="center">
-  <a href="#">
-    <img src="https://dannylabs-vn.vercel.app/api/now-playing" alt="Spotify Playlist" width="520" />
-  </a>
-</div>
-
-<br>
-
----
-
-<br>
-
 <h3 align="center"><code>~/projects</code></h3>
 
 <br>
@@ -218,18 +202,14 @@ IoT-based electrical safety monitoring.
 
 <br>
 
-<h3 align="center"><code>~/now-playing</code></h3>
+<h3 align="center"><code>~/now play</code></h3>
 
 <br>
 
 <div align="center">
-
-*Good software deserves good music.*
-
-<br>
-
-<img src="./assets/now_playing.svg" alt="Now Playing" width="480" />
-
+  <a href="#">
+    <img src="https://dannylabs-vn.vercel.app/api/now-playing" alt="Spotify Playlist" width="520" />
+  </a>
 </div>
 
 <br>
