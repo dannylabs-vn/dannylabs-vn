@@ -181,8 +181,7 @@ IoT-based electrical safety monitoring.
 <br>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=dannylabs-vn&show_icons=true&hide_border=true&bg_color=0D1117&title_color=C9D1D9&icon_color=F59E0B&text_color=8B949E&ring_color=F59E0B" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dannylabs-vn&layout=compact&hide_border=true&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E" width="49%" />
+
 </div>
 
 <br>
@@ -255,7 +254,7 @@ $ status
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=dannylabs-vn&style=flat-square&color=8B949E&label=Profile+Views" />
+
 
 <br><br>
 
