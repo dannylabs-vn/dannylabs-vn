@@ -207,9 +207,23 @@ IoT-based electrical safety monitoring.
 <br>
 
 <div align="center">
-  <a href="#">
-    <img src="https://dannylabs-vn.vercel.app/api/now-playing" alt="Spotify Playlist" width="520" />
-  </a>
+
+<table>
+  <tr>
+    <td align="left" width="520">
+
+**My playlist**
+
+1. **Từ Đầu** — Chillies  
+2. **The Winner Takes It All** — ABBA  
+3. **Tập Đi** — Truant Fu  
+4. **Promise** — Laufey  
+5. **Hey Jude** — The Beatles
+
+    </td>
+  </tr>
+</table>
+
 </div>
 
 <br>
