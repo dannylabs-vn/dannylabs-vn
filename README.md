@@ -1,149 +1,130 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&customColorList=1,FF2A2A,FF8C00,FFD700&height=250&section=header&text=HELLO%2C%20I%27M%20DANNY&fontSize=70&fontColor=ffffff&animation=twinkling&desc=FRONTEND%20ENGINEER%20%2F%2F%20AI%20RESEARCHER&descAlignY=75&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=250&section=header&text=HONG%20DAO%20KIET&fontSize=60&fontColor=FF8C00&animation=twinkling&desc=SOFTWARE%20ENGINEER%20%7C%20AI%20INNOVATOR&descAlignY=75&descAlign=50&stroke=161B22" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Teko&weight=600&size=28&duration=2500&pause=1000&color=FF8C00&center=true&vCenter=true&width=500&lines=BUILDING+HIGH-PERFORMANCE+SYSTEMS;INNOVATING+AT+THE+EDGE+OF+AI;TURNING+CAFFEINE+INTO+CODE;LOCKED+IN+AND+CODING;ARCHITECTING+THE+FUTURE" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F7B500&center=true&vCenter=true&width=500&lines=Building+high-performance+systems;Architecting+scalable+backends;Crafting+premium+user+interfaces;Innovating+at+the+edge+of+AI;Turning+caffeine+into+code" alt="Typing SVG" />
 </div>
 
 <br>
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" width="250">
-        <br>
-        <img src="https://i.pinimg.com/originals/94/d9/b4/94d9b439ebdfa2bebc94cf211a766eb3.gif" width="200" alt="Cyberpunk coding gif" />
-        <br>
-        <b>STATUS:</b> 🔴 LOCKED IN<br>
-        <b>MODE:</b> ⚡ DEEP WORK<br>
-        <b>FUEL:</b> ☕ ESPRESSO<br>
-      </td>
-      <td width="550">
-        <h3><code>const developer = {</code></h3>
-        <pre>
-  name: "Hong Dao Kiet",
+  <p><b>Current Focus:</b> Full Stack Development & AI Integration ⚡ <b>Location:</b> Vietnam 🇻🇳</p>
+  <p><b>Status:</b> Available for collaboration 🚀 <b>Contact:</b> <a href="mailto:dannyhong2310@gmail.com">dannyhong2310@gmail.com</a></p>
+</div>
+
+<br>
+
+<h3 align="center"><code>const developer = {</code></h3>
+<div align="center">
+<pre align="left" style="width: max-content; margin: 0 auto; background: #0D1117; color: #F7B500; padding: 15px; border-radius: 8px; border: 1px solid #161B22;">
+  role: "Software Engineer",
   alias: "Danny",
-  location: "Vietnam 🇻🇳",
-  arsenal: ["TypeScript", "Python", "HTML/CSS"],
-  learning: ["Next.js", "AI Integrations"],
-  focus: ["UI/UX Engineering", "IoT", "Hackathons"],
-  mission: "Build world-class AI and Web systems."
-        </pre>
-        <h3><code>}</code></h3>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=FF2A2A&height=60&text=%E2%9C%A6%20TECH%20ARSENAL%20%E2%9C%A6&fontSize=30&fontColor=ffffff" />
-</div>
-
-<br>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="400">
-        <h3>🔥 FRONTEND</h3>
-        <a href="#"><img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=FF2A2A" /></a>
-        <a href="#"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=FF8C00" /></a>
-        <a href="#"><img src="https://img.shields.io/badge/Tailwind-000000?style=for-the-badge&logo=tailwindcss&logoColor=FFD700" /></a>
-        <a href="#"><img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=FF8C00" /></a>
-      </td>
-      <td align="center" width="400">
-        <h3>⚡ BACKEND & AI</h3>
-        <a href="#"><img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FF2A2A" /></a>
-        <a href="#"><img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=FF8C00" /></a>
-        <a href="#"><img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=FFD700" /></a>
-        <a href="#"><img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=FF8C00" /></a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=FF8C00&height=60&text=%E2%9C%A6%20ACTIVE%20MISSIONS%20%E2%9C%A6&fontSize=30&fontColor=000000" />
-</div>
-
-<br>
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="350" valign="top">
-        <h3>🔴 DEPLOYMENT 01</h3>
-        <b>CODENAME:</b> SmartBites<br>
-        <b>RANK:</b> S-CLASS<br>
-        <b>TECH FRAMEWORK:</b> AI, IoT, React<br>
-        <b>STATUS:</b> ACTIVE OPERATION<br>
-        <a href="#">[ INITIATE OVERRIDE ]</a>
-      </td>
-      <td width="350" valign="top">
-        <h3>🟠 DEPLOYMENT 02</h3>
-        <b>CODENAME:</b> VSignChat<br>
-        <b>RANK:</b> A-CLASS<br>
-        <b>TECH FRAMEWORK:</b> Computer Vision, TS<br>
-        <b>STATUS:</b> CALIBRATING<br>
-        <a href="#">[ INITIATE OVERRIDE ]</a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=FFD700&height=60&text=%E2%9C%A6%20SYSTEM%20LOGS%20%E2%9C%A6&fontSize=30&fontColor=000000" />
-</div>
-
-<br>
-
-<div align="center">
-  <pre>
-   [08:00:00] ──▶ SYSTEM BOOT // COFFEE DETECTED
-   [10:00:00] ──▶ INITIATING FRONTEND RENDERING PROTOCOLS
-   [12:30:00] ──▶ THERMAL COOLDOWN // MEAL CONSUMPTION
-   [14:00:00] ──▶ RESEARCH MODE ENGAGED // AI ALGORITHMS
-   [22:00:00] ──▶ OVERCLOCKING // LATE NIGHT DEBUGGING
-  </pre>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=FF2A2A&height=60&text=%E2%9C%A6%20TERMINAL%20ACCESS%20%E2%9C%A6&fontSize=30&fontColor=ffffff" />
-</div>
-
-<br>
-
-<pre align="center">
-visitor@danny-sys:~$ execute override --bypass
-[WARNING] Unauthorized access detected...
-[SYSTEM] Bypassing firewall... [SUCCESS]
-[SYSTEM] Accessing encrypted developer logs...
-
-> Founder of EcoAI Youth Innovators
-> President of Science & Tech Club
-> Ready to disrupt the industry.
-
-visitor@danny-sys:~$ exit
-[SYSTEM] Connection terminated. Have a good day.
+  education: "High School Student",
+  interests: ["UI/UX Design", "AI/ML", "IoT", "Open Source"],
+  currentlyLearning: ["Next.js", "Advanced System Design"],
+  currentlyBuilding: "SmartBites & VSignChat",
+  funFact: "I debug faster after midnight."
 </pre>
+</div>
+<h3 align="center"><code>}</code></h3>
 
 <br>
 
+<h2 align="center">⚡ TECH STACK</h2>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dannylabs-vn&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FF2A2A&icon_color=FF8C00&text_color=FFD700" />
+  <p><b>FRONTEND</b></p>
+  <img src="https://img.shields.io/badge/React-161B22?style=for-the-badge&logo=react&logoColor=FF8C00" />
+  <img src="https://img.shields.io/badge/Next.js-161B22?style=for-the-badge&logo=nextdotjs&logoColor=F7B500" />
+  <img src="https://img.shields.io/badge/Tailwind-161B22?style=for-the-badge&logo=tailwindcss&logoColor=FF4D4D" />
+  <img src="https://img.shields.io/badge/TypeScript-161B22?style=for-the-badge&logo=typescript&logoColor=FF8C00" />
+  
+  <p><b>BACKEND & AI</b></p>
+  <img src="https://img.shields.io/badge/Node.js-161B22?style=for-the-badge&logo=nodedotjs&logoColor=F7B500" />
+  <img src="https://img.shields.io/badge/Express-161B22?style=for-the-badge&logo=express&logoColor=FF4D4D" />
+  <img src="https://img.shields.io/badge/Python-161B22?style=for-the-badge&logo=python&logoColor=FF8C00" />
+  <img src="https://img.shields.io/badge/MongoDB-161B22?style=for-the-badge&logo=mongodb&logoColor=F7B500" />
+
+  <p><b>TOOLS</b></p>
+  <img src="https://img.shields.io/badge/Git-161B22?style=for-the-badge&logo=git&logoColor=FF4D4D" />
+  <img src="https://img.shields.io/badge/Figma-161B22?style=for-the-badge&logo=figma&logoColor=FF8C00" />
+  <img src="https://img.shields.io/badge/Vercel-161B22?style=for-the-badge&logo=vercel&logoColor=F7B500" />
+</div>
+
+<br>
+
+<h2 align="center">📊 GITHUB DASHBOARD</h2>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dannylabs-vn&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FF8C00&icon_color=F7B500&text_color=A0A0A0" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dannylabs-vn&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=A0A0A0" width="48%" />
+</div>
+<br>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dannylabs-vn&theme=dark&hide_border=true&background=0D1117&ring=FF8C00&fire=F7B500&currStreakNum=ffffff&currStreakLabel=FF8C00&sideNums=ffffff&sideLabels=A0A0A0&dates=A0A0A0" />
+</div>
+
+<br>
+
+<h2 align="center">📂 FEATURED PROJECTS</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <h3>🚀 SmartBites</h3>
+        <p>AI-powered nutrition and food tracking platform.</p>
+        <p><b>Stack:</b> React, AI, IoT, Node.js</p>
+        <p><b>Status:</b> Active Development</p>
+      </td>
+      <td width="50%" valign="top">
+        <h3>👁️ VSignChat</h3>
+        <p>Real-time sign language translation using computer vision.</p>
+        <p><b>Stack:</b> Python, TypeScript, CV</p>
+        <p><b>Status:</b> Beta</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
+<h2 align="center">🎧 NOW PLAYING</h2>
+
+<div align="center">
+  <i>"Code better with good music."</i><br><br>
+  <a href="https://spotify.com"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=spotify&cover_image=true&theme=novathem&bar_color=FF8C00&bar_color_cover=false" /></a>
+</div>
+
+<br>
+
+<h2 align="center">💻 TERMINAL</h2>
+
+<div align="center">
+<pre align="left" style="width: max-content; margin: 0 auto; background: #0D1117; color: #F7B500; padding: 15px; border-radius: 8px; border: 1px solid #161B22;">
+visitor@danny-sys:~$ whoami
+> Full Stack Developer & Innovator
+
+visitor@danny-sys:~$ stack
+> React | Node.js | Next.js | Python
+
+visitor@danny-sys:~$ currently
+> Building useful things.
+
+visitor@danny-sys:~$ coffee
+> ☕ Loaded.
+</pre>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&customColorList=1,FF2A2A,FF8C00,FFD700&height=120&section=footer&text=CONNECTION%20TERMINATED.%20SEE%20YOU%20IN%20THE%20CODE.&fontSize=22&fontColor=ffffff" />
+  <i>"First solve the problem. Then write the code."</i>
+</div>
+
+<br><br>
+
+<div align="center">
+  <p>See you in the next commit.</p>
 </div>
