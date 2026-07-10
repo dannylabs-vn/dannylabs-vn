@@ -207,7 +207,7 @@ IoT-based electrical safety monitoring.
 <br>
 
 <div align="center">
-  <img src="./assets/spotify_playlist.svg" alt="White minimal playlist table" width="620" />
+  <img src="./assets/spotify_playlist.svg" alt="White minimal playlist table" width="640" />
 </div>
 
 <br>
