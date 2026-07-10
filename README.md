@@ -219,7 +219,9 @@ IoT-based electrical safety monitoring.
 
 <br>
 
-<img src="./assets/now_playing.svg" alt="Now Playing" width="480" />
+<a href="https://spotify-github-profile.kittinanx.com/api/view?uid=316omoqqu43ucoqpxzvegzlpjiwy&redirect=true">
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=316omoqqu43ucoqpxzvegzlpjiwy&cover_image=true&theme=spotify-embed&show_offline=true&background_color=121212&interchange=true&profanity=true&hide_remaster=true&bar_color=53b14f&bar_color_cover=true&mode=dark" alt="Spotify Now Playing" />
+</a>
 
 </div>
 
