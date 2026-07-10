@@ -1,0 +1,71 @@
+﻿<svg width="720" height="450" viewBox="0 0 720 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A2A2A"/>
+      <stop offset="0.52" stop-color="#181818"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="34" y1="34" x2="156" y2="156" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1DB954"/>
+      <stop offset="0.45" stop-color="#16883F"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="720" height="450" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="718" height="448" rx="22" stroke="#30363D"/>
+
+  <g filter="url(#shadow)">
+    <rect x="34" y="34" width="122" height="122" rx="14" fill="url(#cover)"/>
+    <circle cx="95" cy="95" r="39" fill="#0D1117" fill-opacity="0.28"/>
+    <path d="M80 74V116L117 95L80 74Z" fill="#F0F6FC"/>
+  </g>
+
+  <text x="180" y="62" fill="#B3B3B3" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">PLAYLIST</text>
+  <text x="180" y="106" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">Danny's Spotify Picks</text>
+  <text x="182" y="135" fill="#B3B3B3" font-family="Inter, Arial, sans-serif" font-size="15">5 songs · chill, nostalgic, and golden</text>
+
+  <circle cx="58" cy="196" r="22" fill="#1DB954"/>
+  <path d="M51 183V209L73 196L51 183Z" fill="#0D1117"/>
+  <circle cx="108" cy="196" r="18" stroke="#B3B3B3" stroke-width="2"/>
+  <path d="M101 196H115M108 189V203" stroke="#B3B3B3" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="152" cy="196" r="3" fill="#B3B3B3"/>
+  <circle cx="166" cy="196" r="3" fill="#B3B3B3"/>
+  <circle cx="180" cy="196" r="3" fill="#B3B3B3"/>
+
+  <line x1="34" y1="230" x2="686" y2="230" stroke="#30363D"/>
+  <text x="50" y="254" fill="#B3B3B3" font-family="Inter, Arial, sans-serif" font-size="12">#</text>
+  <text x="88" y="254" fill="#B3B3B3" font-family="Inter, Arial, sans-serif" font-size="12">TITLE</text>
+  <text x="510" y="254" fill="#B3B3B3" font-family="Inter, Arial, sans-serif" font-size="12">ARTIST</text>
+  <line x1="34" y1="266" x2="686" y2="266" stroke="#30363D"/>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="15">
+    <text x="50" y="292" fill="#B3B3B3">1</text>
+    <rect x="88" y="274" width="30" height="30" rx="5" fill="#1DB954"/>
+    <text x="130" y="294" fill="#FFFFFF" font-weight="700">Từ Đầu</text>
+    <text x="510" y="294" fill="#B3B3B3">Chillies</text>
+
+    <text x="50" y="326" fill="#B3B3B3">2</text>
+    <rect x="88" y="308" width="30" height="30" rx="5" fill="#B1976B"/>
+    <text x="130" y="328" fill="#FFFFFF" font-weight="700">The Winner Takes It All</text>
+    <text x="510" y="328" fill="#B3B3B3">ABBA</text>
+
+    <text x="50" y="360" fill="#B3B3B3">3</text>
+    <rect x="88" y="342" width="30" height="30" rx="5" fill="#6E7681"/>
+    <text x="130" y="362" fill="#FFFFFF" font-weight="700">Tập Đi</text>
+    <text x="510" y="362" fill="#B3B3B3">Truant Fu</text>
+
+    <text x="50" y="394" fill="#B3B3B3">4</text>
+    <rect x="88" y="376" width="30" height="30" rx="5" fill="#D29922"/>
+    <text x="130" y="396" fill="#FFFFFF" font-weight="700">Promise</text>
+    <text x="510" y="396" fill="#B3B3B3">Laufey</text>
+
+    <text x="50" y="428" fill="#B3B3B3">5</text>
+    <rect x="88" y="410" width="30" height="30" rx="5" fill="#DB6D28"/>
+    <text x="130" y="430" fill="#FFFFFF" font-weight="700">Hey Jude</text>
+    <text x="510" y="430" fill="#B3B3B3">The Beatles</text>
+  </g>
+</svg>

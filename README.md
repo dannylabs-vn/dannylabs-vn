@@ -207,23 +207,7 @@ IoT-based electrical safety monitoring.
 <br>
 
 <div align="center">
-
-<table>
-  <tr>
-    <td align="left" width="520">
-
-**My playlist**
-
-1. **Từ Đầu** — Chillies  
-2. **The Winner Takes It All** — ABBA  
-3. **Tập Đi** — Truant Fu  
-4. **Promise** — Laufey  
-5. **Hey Jude** — The Beatles
-
-    </td>
-  </tr>
-</table>
-
+  <img src="./assets/spotify_playlist.svg" alt="Spotify-style playlist" width="720" />
 </div>
 
 <br>
