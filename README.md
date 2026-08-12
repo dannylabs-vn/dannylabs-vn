@@ -18,6 +18,9 @@ artificial intelligence, and making life easier =).
 <br>
 
 <h3 align="center"><code>~/about</code></h3>
+<div align="center">
+  <img src="game.gif" alt="GitHub Space Shooter Contribution Graph" width="95%" />
+</div>
 
 <br>
 
