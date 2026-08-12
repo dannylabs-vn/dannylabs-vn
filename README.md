@@ -185,14 +185,6 @@ IoT-based electrical safety monitoring.
 
 </div>
 
-<br>
-
-<div align="center">
-<img src="https://streak-stats.demolab.com/?user=dannylabs-vn&hide_border=true&background=0D1117&ring=F59E0B&fire=EA580C&currStreakNum=C9D1D9&currStreakLabel=F59E0B&sideNums=C9D1D9&sideLabels=8B949E&dates=8B949E&stroke=0D1117" />
-</div>
-
-<br>
-
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=dannylabs-vn&bg_color=0D1117&color=8B949E&line=F59E0B&point=C9D1D9&area=true&area_color=F59E0B&hide_border=true" width="95%" />
 </div>
